@@ -49,6 +49,7 @@ public class BinarySearchTree{
 		this.root = null;
 	}
 	
+	
 	//Find a node in O(logn) time
 	public boolean find(int data){
 		Node cursor = root;
@@ -65,6 +66,7 @@ public class BinarySearchTree{
 		return false;
 	}
 	
+	//delete in O(logn)
 	public boolean delete(int data){
 		Node parent = root;
 		Node cursor = root;
